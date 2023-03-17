@@ -1,0 +1,21 @@
+int main()
+{
+	int a = 1;
+	int b = 123;
+	int c = 999;
+	float array[512];
+	while(a > 0)
+	{
+		a = b + c;
+		c = b;
+		b = a;
+		if(a > 0)
+		{
+			array[i++] = a;
+		}
+		else
+		{
+			break;
+		}
+	}
+}
